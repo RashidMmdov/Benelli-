@@ -1,0 +1,244 @@
+header{
+    .SearchBar{
+        background-color: #DBDBDB;
+        height: auto;
+        padding: 35px;
+        .container{
+            height: 100%;
+            .row{
+                height: 100%;
+                .icon{
+                    height: 100%;
+                    display: flex;
+                    justify-content:center;
+                    align-items: center;
+                    img{
+                        height: 73px;
+                    }
+                }
+                .searching{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    input{
+                        margin-top: 25px;
+                        width: 80vh;
+                        height: 60px;
+                        border: none;
+                        border-radius: 5px;
+                    }
+                    button{
+                        margin-top: 25px;
+                        width: 95px;
+                        height: 60px;
+                        background-color: #ed1c24;
+                        border: none;
+                        border-radius: 5px;
+                        i{
+                            color: white;
+                            font-size: 30px;
+                        }
+                        &:hover{
+                            
+                                background-color: rgb(27, 25, 25);
+                            
+                        }
+                    }
+                }
+               .basket{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                i{
+                    color: #ed1c24;
+                    font-size: 55px;
+                    margin-top: 25px;
+                    margin-left: 30px;
+                    sup{
+                        font-size: 15px;
+                        color: white;
+                        background-color: #ed1c24;
+                        padding: 9px;
+                        border-radius: 50%;
+                    }
+                }
+               }
+               .user{
+                i{
+                    &:hover{
+                        color: rgb(27, 25, 25);
+                    }
+                }
+               }
+            }
+        }
+    }
+    .NavBar{
+        background-color: #232b2b;
+        
+        height: 56px;
+        .container{
+            height: 100%;
+        }
+        .navItem{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            .Block{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    
+                }
+                &:hover{
+                    background-color: #ed1c24;
+                }
+            }
+        }
+    }
+}
+main{
+    .Shops{
+        text-align: center;
+        padding-top: 75px;
+        .col-lg-3{
+            width: 24.5%;
+        }
+        h1{
+            color: #ed1c24;
+            font-size: 45px;
+        }
+         .Poducts{
+            display: flex;
+            margin: 65px;
+            .card{
+                align-items: center;
+                width: 292px;
+                height: 275px;
+                border-radius: 0;
+                border: 1px solid #d0d0d0;
+                .PName{
+                    color: #666666;
+                }
+                .view{
+                    width: 100%;
+                    height: 100%;
+                    background-color: #7f7f7fe6;
+                    position: absolute;
+                    display: none;
+                    button{
+                        border-radius: 5px ;
+                        padding: 10px 15px;
+                        
+                    }
+                    
+                }
+                &:hover{
+                    .view{
+                        display: flex;
+                        align-items: center;
+                    justify-content: center;
+                    }
+                }
+                img{
+                    width: 135px;
+                    height: 135px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+         }
+    }
+}
+footer{
+    height: auto;
+    background-color: #212223;
+    padding: 100px;
+    .endSec{
+        h5{
+            margin-bottom: 15px;
+        }
+        h5,a{
+            color: white;
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 15px;
+                
+            }
+        }
+        form{
+            width: 220px;
+            input,button{
+                width: 100%;
+                margin-bottom: 7px;
+                border-radius: 1px;
+                border: none;
+                
+            }
+            span{
+                a{
+                    font-size: 11px;
+                }
+            }
+            .R{
+                right: 0;
+            }
+        }
+        .Payment{
+            margin-bottom: 20px;
+        }
+        .SocialMedia{
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    margin-right: 10px;
+                    img{
+                        width: 35px;
+                        &:hover{
+                            box-shadow: 0 0 8px #000 inset;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .FaceLink{
+            background-image: url(../Imagers/../Imagers/Footer/FaceImgBackgraund.jpg);
+            padding: 10px;
+            width: 293px;
+            height: 130px;
+            .Photo{
+                display: flex;
+                p{
+                    color: white;
+                }
+                a{
+                    margin-right: 5px;
+                    font-size: 20px;
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

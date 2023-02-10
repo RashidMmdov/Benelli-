@@ -1,0 +1,221 @@
+header .SearchBar {
+  background-color: #DBDBDB;
+  height: auto;
+  padding: 35px;
+}
+header .SearchBar .container {
+  height: 100%;
+}
+header .SearchBar .container .row {
+  height: 100%;
+}
+header .SearchBar .container .row .icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .SearchBar .container .row .icon img {
+  height: 73px;
+}
+header .SearchBar .container .row .searching {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .SearchBar .container .row .searching input {
+  margin-top: 25px;
+  width: 80vh;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+}
+header .SearchBar .container .row .searching button {
+  margin-top: 25px;
+  width: 95px;
+  height: 60px;
+  background-color: #ed1c24;
+  border: none;
+  border-radius: 5px;
+}
+header .SearchBar .container .row .searching button i {
+  color: white;
+  font-size: 30px;
+}
+header .SearchBar .container .row .searching button:hover {
+  background-color: rgb(27, 25, 25);
+}
+header .SearchBar .container .row .basket {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .SearchBar .container .row .basket i {
+  color: #ed1c24;
+  font-size: 55px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+header .SearchBar .container .row .basket i sup {
+  font-size: 15px;
+  color: white;
+  background-color: #ed1c24;
+  padding: 9px;
+  border-radius: 50%;
+}
+header .SearchBar .container .row .user i:hover {
+  color: rgb(27, 25, 25);
+}
+header .NavBar {
+  background-color: #232b2b;
+  height: 56px;
+}
+header .NavBar .container {
+  height: 100%;
+}
+header .NavBar .navItem {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+header .NavBar .navItem .Block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .NavBar .navItem .Block a {
+  text-decoration: none;
+  color: white;
+}
+header .NavBar .navItem .Block:hover {
+  background-color: #ed1c24;
+}
+
+main .Shops {
+  text-align: center;
+  padding-top: 75px;
+}
+main .Shops .col-lg-3 {
+  width: 24.5%;
+}
+main .Shops h1 {
+  color: #ed1c24;
+  font-size: 45px;
+}
+main .Shops .Poducts {
+  display: flex;
+  margin: 65px;
+}
+main .Shops .Poducts .card {
+  align-items: center;
+  width: 292px;
+  height: 275px;
+  border-radius: 0;
+  border: 1px solid #d0d0d0;
+}
+main .Shops .Poducts .card .PName {
+  color: #666666;
+}
+main .Shops .Poducts .card .view {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 127, 127, 0.9019607843);
+  position: absolute;
+  display: none;
+}
+main .Shops .Poducts .card .view button {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+main .Shops .Poducts .card:hover .view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .Shops .Poducts .card img {
+  width: 135px;
+  height: 135px;
+}
+main .Shops .Poducts .card p {
+  font-size: 13px;
+}
+
+footer {
+  height: auto;
+  background-color: #212223;
+  padding: 100px;
+}
+footer .endSec h5 {
+  margin-bottom: 15px;
+}
+footer .endSec h5, footer .endSec a {
+  color: white;
+}
+footer .endSec ul {
+  padding: 0;
+}
+footer .endSec li {
+  list-style: none;
+}
+footer .endSec li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+footer .endSec form {
+  width: 220px;
+}
+footer .endSec form input, footer .endSec form button {
+  width: 100%;
+  margin-bottom: 7px;
+  border-radius: 1px;
+  border: none;
+}
+footer .endSec form span a {
+  font-size: 11px;
+}
+footer .endSec form .R {
+  right: 0;
+}
+footer .endSec .Payment {
+  margin-bottom: 20px;
+}
+footer .endSec .SocialMedia ul {
+  display: flex;
+}
+footer .endSec .SocialMedia ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+footer .endSec .SocialMedia ul li img {
+  width: 35px;
+}
+footer .endSec .SocialMedia ul li img:hover {
+  box-shadow: 0 0 8px #000 inset;
+}
+footer .endSec .FaceLink {
+  background-image: url(../Imagers/../Imagers/Footer/FaceImgBackgraund.jpg);
+  padding: 10px;
+  width: 293px;
+  height: 130px;
+}
+footer .endSec .FaceLink .Photo {
+  display: flex;
+}
+footer .endSec .FaceLink .Photo p {
+  color: white;
+}
+footer .endSec .FaceLink .Photo a {
+  margin-right: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .endSec .FaceLink .Photo a:hover {
+  text-decoration: underline;
+}
+footer .endSec .FaceLink .Photo a img {
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=Main.css.map */
